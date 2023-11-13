@@ -1,5 +1,5 @@
 % Read the image
-originalImage = imread('/Users/hermannarmenta/Desktop/Screenshot 2023-10-16 at 5.25.45 PM.png'); % Replace 'your_image.jpg' with your image file
+originalImage = imread('your_image.jpg'); % Replace 'your_image.jpg' with your image file
 
 % Convert the image to grayscale if it's a color image
 if size(originalImage, 3) == 3
